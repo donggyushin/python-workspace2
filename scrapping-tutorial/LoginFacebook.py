@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 import time
 
 phone = "01090411019"
-pwd = "nlcfjb1129"
+pwd = "password"
 path = "/Users/jwajunhyeob/Documents/chromedrivercontainer/chromedriver"
 driver = webdriver.Chrome(path)
 driver.get("http://www.facebook.org")
