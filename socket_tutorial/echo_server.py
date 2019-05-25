@@ -25,6 +25,7 @@ def echo(conn):
 
 def listeningForClient(server_socket):
     conn, address = server_socket.accept()
+    # echo(conn)
     t = threading.Thread(target=echo, args=(conn,))
     t.start()
 
